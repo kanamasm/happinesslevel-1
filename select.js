@@ -23,6 +23,7 @@ connection.query(sql,function (err, result) {
        //console.log(series);
        recall.recall(series,Response);
        console.log('------------------------------------------------------------\n\n');  
+         console.log('111111111111111111111111111111111111111\n\n');  
 });
 connection.end();
 console.log(series);
